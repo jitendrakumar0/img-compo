@@ -7,6 +7,8 @@ import About from './pages/about/About'
 import Sidebar from './pages/sidebar/Sidebar'
 import Uicomponents from './pages/uicomponents/Uicomponents'
 import Layout from './pages/layout/Layout'
+import Blog from './pages/blog/Blog'
+import Detail from './pages/detailpage/Detail'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Route path='/side-bar' element={<Sidebar/>}></Route>
         <Route path='/ui-component' element={<Uicomponents/>}></Route>
         <Route path='/layout' element={<Layout/>}></Route>
+        <Route path='/blog' element={<Blog/>}></Route>
+        <Route path='/detail' element={<Detail/>}></Route>
 
 
       </Routes>
